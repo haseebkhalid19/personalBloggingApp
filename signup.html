@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <script type="module" src="assets/js/firebase.js"></script>
+    <script type="module" src="assets/js/auth.js" defer></script>
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <ul class="d-flex align-items-center justify-content-between py-3 px-5">
+        <li>
+          <a href="index.html" class="logo">
+            <h2>Personal Blogging App</h2>
+          </a>
+        </li>
+        <li>
+          <a href="signup.html">
+            <strong>Sign Up</strong>
+          </a>
+        </li>
+      </ul>
+      <div class="jumbotron ps-5">
+        <h1>Sing Up</h1>
+      </div>
+    </header>
+
+    <main class="d-flex align-items-center justify-content-center">
+      <div class="auth-container py-5">
+        <form>
+          <div class="form-group my-3 mx-5">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              class="form-control"
+              placeholder="First Name"
+            />
+            <div class="ms-2 text-danger"></div>
+          </div>
+          <div class="form-group my-3 mx-5">
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              class="form-control"
+              placeholder="Last Name"
+            />
+            <div class="ms-2 text-danger"></div>
+          </div>
+          <div class="form-group my-3 mx-5">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Email"
+            />
+            <div class="ms-2 text-danger"></div>
+          </div>
+          <div class="form-group my-3 mx-5">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-control"
+              placeholder="Password"
+            />
+            <div class="ms-2 text-danger"></div>
+          </div>
+          <div class="form-group my-3 mx-5">
+            <input
+              type="password"
+              id="confirm-password"
+              class="form-control"
+              placeholder="Confirm Password"
+            />
+            <div class="ms-2 text-danger"></div>
+          </div>
+          <div class="form-group my-3 mx-5 text-center">
+            <button id="singUp" class="btn btn-primary">Sign Up</button> <br />
+            Alredady a User? <a href="signin.html">Sign In</a>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background: #fffffc;
+}
+* {
+  font-family: Poppins, sans-serif;
+}
+header ul {
+  list-style: none;
+  background: #f2f8fc;
+  margin-bottom: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+header a:hover {
+  color: #000;
+}
+.logo h2 {
+  font-family: Agbalumo, sans-serif;
+}
+.jumbotron {
+  background: #fcfcf7;
+  padding: 1rem;
+  box-shadow: #00000042 0px 1px;
+}
+.auth-container {
+  /* background: #f8f7f4; */
+  background: #f4f1f8;
+  box-shadow: #f4f1f8 0px 0px 10px;
+  margin-top: 3rem;
+  width: 30rem;
+}
+.blog-container {
+  /* background: #f8f7f4; */
+  background: #f4f1f8;
+  box-shadow: #f4f1f8 0px 0px 10px;
+  margin-top: 3rem;
+  width: 50rem;
+}
